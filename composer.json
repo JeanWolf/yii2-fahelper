@@ -1,0 +1,34 @@
+{
+  "name": "jext/yii2-fahelper",
+  "description": "fahelper - Font Awesome Html Helper for Yii2",
+  "homepage": "http://blog.jeen.wang/",
+  "keywords": ["yii2", "extension", "font-awesome"],
+  "authors": [
+    {
+      "name": "Jeen Wang",
+      "email": "jeen@vsfor.com",
+      "homepage": "http://vsfor.com",
+      "role": "Developer"
+    }
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "email": "jeen@vsfor.com",
+    "issues": "https://github.com/JeanWolf/yii2-fahelper/issues"
+  },
+  "require": {
+      "yiisoft/yii2": "2.*",
+      "bower-asset/font-awesome": "^4.7"
+  },
+  "extra": {
+      "asset-installer-paths": {
+          "bower-asset-library": "vendor/bower"
+      }
+  },
+  "autoload": {
+      "psr-4": {
+          "jext\\fahelper\\": ""
+      }
+  }
+}
