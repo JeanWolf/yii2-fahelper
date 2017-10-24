@@ -17,7 +17,7 @@ use jext\fahelper\JFA;
 
 FontAwesomeAsset::register($this);
 
-$icon = JFA::icon('camera')
+$icon = JFA::icon('camera');
 //or
 $icon = JFA::i('camera')->size('2x')->rotate('90');
 
@@ -32,10 +32,12 @@ echo $icon->stackOn('ban');
 
 ```
 
-**免 composer 使用说明**
+**无 composer 安装使用说明**
 
-由于国内的composer包安装速度很让人着急，这边简单的介绍下怎么在没有composer的环境下使用本库。说简单些就是直接使用源码。
+由于国内的composer包安装速度很让人着急，这边简单的介绍下怎么在没有composer的环境下使用本库。说白了就是直接使用源码。
 
 核心源码为 `JFA.php` 中的 JFA类，直接查看源码 复制到自己项目的某个新文件中， 在针对自己的项目目录修改命名空间即可。
+
+关于font-awesome的前端文件，很多地方都可以下载到也有文档说明，不明白的可以搜索下。
 
 发现问题欢迎反馈 :)
