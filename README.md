@@ -5,7 +5,7 @@ including most usages from http://www.fontawesome.io/   Examples
 
 ## Usage
 
-composer require jext/yii2-fahelper
+`composer require jext/yii2-fahelper`
 
 add assets bundle in the view file
 
